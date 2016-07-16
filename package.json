@@ -22,8 +22,8 @@
   "homepage": "https://github.com/splodingsocks/elm-starter#readme",
   "dependencies": {},
   "devDependencies": {
-    "browser-sync": "2.12.8",
-    "elm": "0.17.0",
-    "npm-run-all": "2.1.0"
+    "browser-sync": "^2.12.8",
+    "elm": "^0.17.1",
+    "npm-run-all": "^2.1.0"
   }
 }
