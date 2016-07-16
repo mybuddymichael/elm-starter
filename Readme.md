@@ -7,6 +7,7 @@
 
 ## Quickstart
 
+ - `brew install entr` (for file watching)
  - `npm install`
  - `npm start` : Runs `serve` and `watch` concurrently for you
 
