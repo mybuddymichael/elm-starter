@@ -14,7 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/splodingsocks/elm-starter.git"
   },
-  "author": "Murphy Randle",
+  "author": [
+    "Murphy Randle",
+    "Michael Hanson"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/splodingsocks/elm-starter/issues"
