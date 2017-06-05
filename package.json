@@ -1,12 +1,12 @@
 {
   "name": "elm-starter",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A place to start with Elm",
   "main": "index.js",
   "scripts": {
     "test": "echo 'No tests, sorry!'",
     "build": "elm make --yes src/Main.elm --output public/built/index.js",
-    "watch": "ls src/**.elm | entr npm run -s build",
+    "watch": "ls src/**.elm | entr yarn run -s build",
     "serve": "cd public && browser-sync start --server --files \"built/*.js, *.css\"",
     "start": "run-p serve watch"
   },
@@ -26,7 +26,7 @@
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.12.8",
-    "elm": "^0.17.1",
+    "elm": "0.18.0",
     "npm-run-all": "^2.1.0"
   }
 }
